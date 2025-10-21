@@ -3312,6 +3312,7 @@ GameObject:
   - component: {fileID: 714173097}
   - component: {fileID: 714173098}
   - component: {fileID: 714173099}
+  - component: {fileID: 714173100}
   m_Layer: 0
   m_Name: Pj
   m_TagString: Untagged
@@ -3418,6 +3419,22 @@ MonoBehaviour:
   buttonText: {fileID: 1672221364}
   teleportRadius: 5
   centerOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &714173100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714173092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fb53b5d5f5fea42871ff6183280b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 714173092}
+  velocidadRotacion: 60
+  velocidadTraslacion: 0.2
+  factorEscala: 0.1
 --- !u!1 &720040467
 GameObject:
   m_ObjectHideFlags: 0
@@ -5911,7 +5928,7 @@ GameObject:
   - component: {fileID: 1539585902}
   - component: {fileID: 1539585901}
   m_Layer: 5
-  m_Name: z+
+  m_Name: Z+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6341,7 +6358,7 @@ GameObject:
   - component: {fileID: 1738748305}
   - component: {fileID: 1738748304}
   m_Layer: 5
-  m_Name: z-
+  m_Name: Z-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
