@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Collectible
   - Climbable
+  - DamageItem
+  - HealthItem
+  - SpeedBallItem
   layers:
   - Default
   - TransparentFX
